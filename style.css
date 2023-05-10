@@ -1,0 +1,182 @@
+@charset "utf-8";
+/* CSS Document */
+
+body 
+{
+        padding-bottom: 40px;
+        background-color: #f7f7f7;
+    
+}
+
+
+.container {
+  margin-top: 80px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 50px 0;
+}
+h2
+{
+ font-family:Tahoma, Geneva, sans-serif;
+ color:#00a2d1;
+}
+.form-container
+{
+ width:500px;
+ margin:0 auto;
+ background:#fff;
+ padding: 25px;
+ box-shadow: 0px 0px 2px rgba(0,0,0,0.4);
+ border-radius:3px;
+}
+button
+{
+ font-family:Verdana, Geneva, sans-serif;
+ font-size:25px;
+}
+label
+{
+  
+ font-family:Tahoma, Geneva, sans-serif;
+ color:.00a9d1;
+}
+a
+{
+ text-decoration:underline;
+}
+
+/* home page style */
+
+.header
+{
+ text-align:center;
+ font-size:25px;
+ color:#fff;
+ background:#00a2d1;
+ height:60px;
+ width:100%;
+}
+.header a
+{
+ color:#f9f9f9;
+ font-family:Verdana, Geneva, sans-serif;
+ font-size:25px;
+ text-decoration:none;
+ position:relative;
+ top:15px;
+}
+.header .left
+{
+ float:left;
+ position:relative;
+ left:150px;
+ bottom: 17px;
+}
+.header .right
+{
+ float:right;
+ position:relative;
+ right:150px;
+}
+.content
+{
+ margin:0 auto;
+ margin-top:100px;
+ text-align:center;
+ font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+ font-size:55px;
+ color:#00a2d1;
+}
+.content p
+{
+ font-size:30px;
+ color:#004567;
+ width:800px;
+ margin:0 auto;
+}
+
+
+.submit-btn {
+  font-size: 16px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+}
+
+
+
+.forgot-password {
+        text-align: right;
+        margin-left: 90px;
+        font-size: 14px;
+      }
+      
+.forgot-password a {
+  color: #00a2d1;
+  text-decoration: none;
+}
+
+.forgot-password a:hover {
+  text-decoration: underline;
+}
+      
+
+
+
+
+/* password modification */
+.password-modification {
+        width: 500px;
+        margin: 0 auto;
+        background: #fff;
+        padding: 25px;
+        box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.4);
+        border-radius: 3px;
+        font-family: Tahoma, Geneva, sans-serif;
+      }
+      
+      .password-modification label {
+        display: block;
+        margin-bottom: 5px;
+        color: #00a2d1;
+      }
+      
+      .password-modification input[type="password"] {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 20px;
+        border: 1px solid #ccc;
+        border-radius: 3px;
+        font-size: 16px;
+        color: #333;
+      }
+
+      .password-modification input[type="text"] {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 20px;
+        border: 1px solid #ccc;
+        border-radius: 3px;
+        font-size: 16px;
+        color: #333;
+      }
+      
+      .password-modification button[type="submit"] {
+        background-color: #00a2d1;
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        font-size: 18px;
+        border-radius: 3px;
+        cursor: pointer;
+      }
+      
+      .password-modification button[type="submit"]:hover {
+        background-color: #0092bf;
+      }
+      
+
+      
+      
